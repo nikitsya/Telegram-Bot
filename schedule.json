@@ -1,26 +1,28 @@
 {
   "days": {
     "monday": [
-      { "time": "09:00", "subject": "Mathematics", "location": "Room 101" },
-      { "time": "11:00", "subject": "Physics", "location": "Lab 2" },
-      { "time": "14:00", "subject": "English", "location": "Room 305" }
+      { "time": "09:00-10:00", "subject": "C++", "location": "P1139", "teacher": "D Flood" },
+      { "time": "10:00-12:00", "subject": "C++", "location": "P1104", "teacher": "D Flood" },
+      { "time": "12:00-13:00", "subject": "Applied SW Project Management", "location": "P1139", "teacher": "R.Lynch" },
+      { "time": "14:00-15:00", "subject": "Applied SW Project Management", "location": "P1104", "teacher": "F.Keenan" }
     ],
     "tuesday": [
-      { "time": "10:00", "subject": "History", "location": "Room 202" },
-      { "time": "13:00", "subject": "Computer Science", "location": "Lab 1" }
+      { "time": "09:00-11:00", "subject": "Full Stack Development", "location": "P1107", "teacher": "D.O'Reilly" },
+      { "time": "11:00-13:00", "subject": "OO Programming", "location": "P1159", "teacher": "D.Logue" },
+      { "time": "14:00-15:00", "subject": "UX Design", "location": "P1139", "teacher": "D Flood" },
+      { "time": "16:00-17:00", "subject": "Applied SW Project Management", "location": "P1139", "teacher": "R.Lynch" }
     ],
     "wednesday": [
-      { "time": "09:00", "subject": "Chemistry", "location": "Lab 3" },
-      { "time": "12:00", "subject": "Literature", "location": "Room 210" }
+      { "time": "10:00-12:00", "subject": "UX Design", "location": "P1160", "teacher": "D Flood" },
+      { "time": "12:00-13:00", "subject": "C++", "location": "P1159", "teacher": "D Flood" },
+      { "time": "14:00-16:00", "subject": "Server-Side Development", "location": "P1106", "teacher": "S.Gates" }
     ],
     "thursday": [
-      { "time": "08:30", "subject": "Biology", "location": "Room 120" },
-      { "time": "11:30", "subject": "Geography", "location": "Room 116" }
+      { "time": "09:00-11:00", "subject": "Full Stack Development", "location": "P1160", "teacher": "D.O'Reilly" },
+      { "time": "11:00-13:00", "subject": "Server-Side Development", "location": "P1106", "teacher": "S.Gates" },
+      { "time": "14:00-16:00", "subject": "OO Programming", "location": "P1159", "teacher": "D.Logue" }
     ],
-    "friday": [
-      { "time": "10:00", "subject": "Physical Education", "location": "Gym" },
-      { "time": "12:00", "subject": "Programming", "location": "Lab 1" }
-    ],
+    "friday": [],
     "saturday": [],
     "sunday": []
   }
