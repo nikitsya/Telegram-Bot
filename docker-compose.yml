@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram-schedule-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./schedule.json:/app/schedule.json:ro

@@ -53,7 +53,11 @@ def format_day(schedule: dict, day_name: str) -> str:
         time = lesson.get("time", "--:--")
         subject = lesson.get("subject", "Untitled")
         location = lesson.get("location", "No room")
-        lines.append(f"{time} - {subject} ({location})")
+        teacher = lesson.get("teacher")
+        if teacher:
+            lines.append(f"{time} - {subject} ({location}) - {teacher}")
+        else:
+            lines.append(f"{time} - {subject} ({location})")
     return "\n".join(lines)
 
 
