@@ -1,0 +1,27 @@
+{
+  "days": {
+    "monday": [
+      { "time": "09:00", "subject": "Mathematics", "location": "Room 101" },
+      { "time": "11:00", "subject": "Physics", "location": "Lab 2" },
+      { "time": "14:00", "subject": "English", "location": "Room 305" }
+    ],
+    "tuesday": [
+      { "time": "10:00", "subject": "History", "location": "Room 202" },
+      { "time": "13:00", "subject": "Computer Science", "location": "Lab 1" }
+    ],
+    "wednesday": [
+      { "time": "09:00", "subject": "Chemistry", "location": "Lab 3" },
+      { "time": "12:00", "subject": "Literature", "location": "Room 210" }
+    ],
+    "thursday": [
+      { "time": "08:30", "subject": "Biology", "location": "Room 120" },
+      { "time": "11:30", "subject": "Geography", "location": "Room 116" }
+    ],
+    "friday": [
+      { "time": "10:00", "subject": "Physical Education", "location": "Gym" },
+      { "time": "12:00", "subject": "Programming", "location": "Lab 1" }
+    ],
+    "saturday": [],
+    "sunday": []
+  }
+}
