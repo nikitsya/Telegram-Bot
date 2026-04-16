@@ -2,6 +2,8 @@
 
 Simple Telegram bot to view your class schedule from `schedule.json`.
 
+![Bot preview](images/screenshots/example/preview.png)
+
 ## Features
 
 - `/today` shows today's schedule
